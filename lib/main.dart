@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:test_project/screens/carousel_slider_test.dart';
-import 'package:test_project/screens/custom_container.dart';
-import 'package:test_project/screens/localization_test.dart';
 import 'package:test_project/screens/shimmer_test.dart';
 import 'generated/l10n.dart';
 
@@ -24,7 +21,7 @@ class MyApp extends StatelessWidget {
       ],
       supportedLocales: S.delegate.supportedLocales,
       debugShowCheckedModeBanner: false,
-      home: const CustomContainer(),
+      home: const ShimmerTest(),
       // initialRoute: ShimmerTest.id,
       // routes: {
       //   ShimmerTest.id: (context) => const ShimmerTest(),
