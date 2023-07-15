@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:test_project/screens/shimmer_test.dart';
+import 'package:test_project/screens/members_table.dart';
 import 'generated/l10n.dart';
 
 void main() {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       ],
       supportedLocales: S.delegate.supportedLocales,
       debugShowCheckedModeBanner: false,
-      home: const ShimmerTest(),
+      home: const UserTablePage(),
       // initialRoute: ShimmerTest.id,
       // routes: {
       //   ShimmerTest.id: (context) => const ShimmerTest(),
